@@ -52,11 +52,16 @@ export default function Hero() {
             ))}
           </div>
           
-          <button className="rounded-full text-base sm:text-lg bg-white w-full py-3 text-black font-medium
-            transition-all duration-200 active:scale-[0.98] active:bg-purple-600 active:text-white
-            shadow-lg">
-            Download CV
-          </button>
+<a
+  href="https://drive.google.com/file/d/1lGAUhhTXvMNGJVzXeYLzixUgAvkUwKZg/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="block rounded-full text-base sm:text-lg bg-white w-full py-3 text-black font-medium
+             text-center transition-all duration-200 active:scale-[0.98]
+             active:bg-purple-600 active:text-white shadow-lg"
+>
+  See CV
+</a>
         </div>
       </div>
     </section>
