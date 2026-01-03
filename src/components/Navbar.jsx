@@ -63,7 +63,7 @@ function Navbar(){
 
 <button
   type="button"
-  onClick={() => alert("Upcoming feature, Sorry :(")}
+  onClick={() => alert("Switching languages is an upcoming feature, Sorry :(")}
   className="
     flex items-center justify-center
     w-10 h-10
@@ -80,7 +80,7 @@ function Navbar(){
   </button>
   <button
   type="button"
-  onClick={() => alert("Upcoming feature, Sorry :(")}
+  onClick={() => alert("Dark mode comming soon, Sorry :(")}
   className="
     flex items-center justify-center
     w-10 h-10
