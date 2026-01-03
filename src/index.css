@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Satoshi", sans-serif;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+@layer base {
+  body {
+    @apply text-base leading-relaxed;
+  }
+
+  h1 { @apply text-4xl font-bold; }
+  h2 { @apply text-3xl font-semibold; }
+  h3 { @apply text-2xl font-semibold; }
+  h4 { @apply text-xl font-semibold; }
+
+  p { @apply text-base; }
+  small { @apply text-sm; }
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+}
+
+
+/* Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* Chrome, Edge, Safari */
+html::-webkit-scrollbar {
+  display: none;
+}
+
+/* Still allow scrolling */
+html {
+  overflow-y: scroll;
+}
