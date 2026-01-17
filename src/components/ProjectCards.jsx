@@ -3,7 +3,7 @@
 
 function ProjectCard({ title, description, link, image}){
     return(
-        <article id="projectCard " className="h-[400px] flex flex-col gap-[22px] border border-gray-100 p-4 rounded-3xl
+        <article id="projectCard " className="h-[440px] flex flex-col gap-[22px] border border-gray-100 p-4 rounded-3xl
         transition-all duration-200 hover:scale-[1.02] shadow-[0_-4px_16px_rgba(0,0,0,0.06),0_8px_24px_rgba(0,0,0,0.08)]
         ">
       <div className="h-64 w-full overflow-hidden shadow-lg rounded-2xl">

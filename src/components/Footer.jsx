@@ -4,7 +4,7 @@ function Footer(){
 
     return(
       <footer id="contact" className="bg-white text-black rounded-xl p-8 sm:p-8 md:p-12 lg:p-12 w-full">
-        <div className="flex flex-row justify-between items-center gap-18">
+        <div className="flex flex-row justify-between items-center gap-8">
           {/* Left Section */}
           <div className="flex-1">
             <h2 className="text-xl font-semibold mb-4">Contact</h2>
@@ -46,8 +46,13 @@ function Footer(){
             </div>
           </div>
 
+          {/* Middle Section */}
+          <div className="text-center flex-1" >
+            <p className="text-sm text-gray-400 mt-8">Upcomming update: <br/>Fixing image size consistency and implementing dark mode.</p>
+          </div>
+
           {/* Right Section */}
-          <div className="text-right">
+          <div className="text-right flex-1" >
             <div className="text-black text-sm mb-2">© 2025 Gustavo Barroso</div>
             <div className="text-black text-sm">
               Designed in Figma · Coded in React

@@ -14,7 +14,7 @@ function Projects() {
           </h2>
           <p className="max-w-2xl text-gray-600">
             A selection of my personal and learning projects using React,
-            JavaScript, and modern UI design.
+            JavaScript, and modern UI design. <br/>Responsive design available in most of them.
           </p>
         </header>
 
